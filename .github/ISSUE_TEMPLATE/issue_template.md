@@ -23,8 +23,8 @@ assignees: ''
 
 1. [Step 1: Describe how to reproduce the issue]
 2. [Step 2: Describe the next step]
-3. [Step 3: Continue with any additional steps]
-4. [Step N: Final step to reproduce the issue]
+3. [Step 3: ...]
+4. [Step N: ...]
 
 ---
 
@@ -40,12 +40,22 @@ assignees: ''
 
 ---
 
+### Logged in badgeID
+
+[BadgeID of sevadar]
+
+
+---
+
+### Local time when issue happened
+[Timestamp]
+
+---
+
 ### Environment
 
-- **Browser:** [e.g., Chrome, Firefox, Safari, Edge]
-- **Browser Version:** [e.g., 92.0.4515.107]
-- **Operating System:** [e.g., Windows 10, macOS Big Sur, Linux]
-- **Device:** [e.g., Desktop, Mobile, Tablet]
+- **Browser:**
+- **OS**: windows/linux
 
 ---
 
@@ -73,10 +83,9 @@ assignees: ''
 
 ---
 
-### Contact Information (Optional)
+### Contact Information
 
-**Name:**  
+**Name or BadgeID**  
 [Your Name]
 
-**Email:**  
-[Your Email Address]
+
