@@ -24,8 +24,9 @@ body:
       placeholder: Tell us what you see!
       value: |
         A bug happened!
-        Observed Behaviour:
-        Exected Behaviour:
+        
+        [Observed Behavior]:
+        [Expected Behavior]:
     validations:
       required: true
   - type: textarea
@@ -40,18 +41,26 @@ body:
     attributes:
       label: Steps to reproduce
       description: Describe how to reproduce the issue.
-      placeholder: Describe how to reproduce the issue.
       value: |
         1. [Step 1: ]
         2. [Step 2: ]
         3. [Step N: ...]
     validations:
       required: false
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional Information
+      description: Please Provide additional information to help debug
+      value: |
+        1. Logged in badgeID: 
+        2. Local date and time of issue observation:
   - type: dropdown
     id: version
     attributes:
       label: Version
       description: What version of our software are you running?
+      multiple: true
       options:
         - 1.3
         - 1.4
@@ -71,14 +80,6 @@ body:
         - Safari
         - Microsoft Edge
         - Other
-  - type: textarea
-    id: additional_info
-    attributes:
-      label: Additional Information
-      description: Please Provide additional information to help debug
-      value: |
-        1. Logged in badgeID: 
-        2. Local date and time of issue observation:
   - type: textarea
     id: logs
     attributes:
