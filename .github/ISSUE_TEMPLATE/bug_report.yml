@@ -57,14 +57,6 @@ body:
         - Medium
         - High
         - Critical
-      render: |
-        <select id="severity-select" name="severity" required>
-          <option value="">NA</option>
-          <option value="Low">Low</option>
-          <option value="Medium">Medium</option>
-          <option value="High" style="color: red;">High</option>
-          <option value="Critical" style="color: red; font-weight: bold;">Critical</option>
-        </select>
     validations:
       required: true
   - type: dropdown
