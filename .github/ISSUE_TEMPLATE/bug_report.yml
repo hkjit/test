@@ -17,8 +17,8 @@ body:
       value: |
         A bug happened!
         
-        [Observed Behavior]:
-        [Expected Behavior]:
+        [Observed Behavior]: 
+        [Expected Behavior]: 
     validations:
       required: true
   - type: textarea
