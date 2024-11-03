@@ -6,20 +6,14 @@ labels: enhancement
 assignees: ''
 ---
 
-## Feature Template
+**Is your feature request related to a problem? Please describe.**
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-**Title:**  
-[Provide a short, descriptive for feature]
+**Describe the solution you'd like**
+A clear and concise description of what you want to happen.
 
----
+**Describe alternatives you've considered**
+A clear and concise description of any alternative solutions or features you've considered.
 
-### Description
-
-[Describe the feature in detail.]
-
----
-
-### Contact Information
-
-**Name:**  
-[Your Name]
+**Additional context**
+Add any other context or screenshots about the feature request here.
