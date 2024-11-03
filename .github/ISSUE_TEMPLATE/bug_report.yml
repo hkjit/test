@@ -43,7 +43,7 @@ body:
     id: additional_info
     attributes:
       label: Additional Information
-      description: Please Provide additional information to help debug
+      description: Please provide additional information to help debug
       value: |
         1. Logged in badgeID: 
         2. Local date and time of issue observation:
@@ -57,7 +57,6 @@ body:
         - Medium
         - High
         - Critical
-      default: 0
     validations:
       required: true
   - type: dropdown
